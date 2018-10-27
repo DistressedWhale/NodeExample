@@ -1,0 +1,31 @@
+{
+  "name": "deebee-db",
+  "version": "1.0.0",
+  "description": "A web app for sorting through dirty bomb's data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "stop": "ruby make.rb && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DistressedWhale/deebee-db.git"
+  },
+  "author": "Sehwah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DistressedWhale/deebee-db/issues"
+  },
+  "homepage": "https://github.com/DistressedWhale/deebee-db#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "lowdb": "^1.0.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "sqlite3": "^4.0.0"
+  }
+}
